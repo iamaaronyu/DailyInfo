@@ -1,2 +1,3 @@
 # DailyInfo
-some info 
+用来记录一些日常信息
+

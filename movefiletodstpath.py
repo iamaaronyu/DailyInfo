@@ -1,3 +1,6 @@
+# 函数说明：将src目录下的文件每个目录随机选x个到目标目录下去。
+# 文件过多时 缩减目标数量进行测试。
+
 import os
 import random
 import shutil

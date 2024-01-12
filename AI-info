@@ -20,3 +20,7 @@ print(f"The model has {model_parameters} parameters.")
 output：
 The model has 117653760 parameters.
 117M(1.1亿参数)
+
+
+学习：
+https://zhuanlan.zhihu.com/p/656289506

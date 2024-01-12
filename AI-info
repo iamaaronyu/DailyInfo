@@ -21,6 +21,14 @@ output：
 The model has 117653760 parameters.
 117M(1.1亿参数)
 
+# 使用Sentence-BERT生成嵌入
+embeddings = sentence_model.encode("Stay Hungry Stay Foolish.")
+# 查看嵌入维度
+print(f"Embedding size: {embeddings.shape}" )
+
+ output：
+Embedding size: (384,)
+
 
 学习：
 https://zhuanlan.zhihu.com/p/656289506

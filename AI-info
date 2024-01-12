@@ -6,3 +6,17 @@ AIGC，即（AI Generated Content），就是利用AI创造的内容。
 
 深度学习书籍：
 http://neuralnetworksanddeeplearning.com/
+
+
+
+
+获取模型参数量：
+from sentence_transformers import SentenceTransformer
+model_name = 'sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2'
+sentence_model = SentenceTransformer(model_name)
+model_parameters = sum(p.numel() for p in sentence_model.parameters())
+print(f"The model has {model_parameters} parameters.")
+
+output：
+The model has 117653760 parameters.
+117M(1.1亿参数)

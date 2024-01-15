@@ -4,10 +4,11 @@
 “AGI” 是 “Artificial General Intelligence” 的缩写，中文通常称为”人工通用智能”。指的是能够执行任何人类智能任务的机器。AGI能够理解、学习、适应和应对一切类型的任务，不仅仅是在某个特定的、窄范围的任务上超越人类，比如我们现在见到的大部分AI。有专家预测，GPT-5将会是第一代AGI。
 AIGC，即（AI Generated Content），就是利用AI创造的内容。
 
-深度学习书籍：
+深度学习书籍（加忠推荐）：
 http://neuralnetworksanddeeplearning.com/
 
-
+Transformers快速入门教材：
+https://transformers.run/
 
 
 获取模型参数量：

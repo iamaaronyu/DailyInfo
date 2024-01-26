@@ -33,3 +33,11 @@ Embedding size: (384,)
 
 学习：
 https://zhuanlan.zhihu.com/p/656289506
+
+RAG：
+RAG of DataBricks：
+https://notebooks.databricks.com/demos/llm-rag-chatbot/index.html#
+https://github.com/databricks-demos/dbdemos?tab=readme-ov-file
+RAG：
+https://medium.com/@madhur.prashant7/build-scalable-custom-genai-bots-retrieval-augmented-generation-langchain-on-sagemaker-mmes-489562c7a47b
+

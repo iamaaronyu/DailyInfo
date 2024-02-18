@@ -30,7 +30,6 @@ print(f"Embedding size: {embeddings.shape}" )
  output：
 Embedding size: (384,)
 
-
 学习：
 https://zhuanlan.zhihu.com/p/656289506
 
@@ -47,4 +46,8 @@ https://kimi.moonshot.cn/chat/cmsesl198ong08u6cgig
 面向开发者的 LLM 入门课程（吴恩达）
 https://github.com/datawhalechina/prompt-engineering-for-developers
 
-test`
+A-Guide-to-Retrieval-Augmented-LLM：
+https://github.com/Wang-Shuo/A-Guide-to-Retrieval-Augmented-LLM?tab=readme-ov-file
+
+微软2023年Build大会演讲：如何训练和应用GPT
+https://www.youtube.com/watch?v=YrBJiy-V8MY

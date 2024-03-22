@@ -1,0 +1,41 @@
+类别	项目	详细信息
+处理器	名称	12th Gen Intel Core i5-12400F 六核
+插槽	FCLGA1700
+核心数/线程数	6/12
+核心代号	Alder Lake
+基准频率	4.00 GHz
+光刻制程	Intel 7
+最大加速频率	4.40 GHz
+发布日期	2022年一季度
+总线速度	100 MHz
+热设计功耗	65 W
+缓存	L1: 6x32 KB/6x48 KB, L2: 6x1.25 MB, L3: 18 MB
+指令集	MMX, SSE, SSE2, SSE3, SSSE3, SSE4.1, SSE4.2, HTT, EM64T, EIST, Turbo Boost
+内存类型	Up to DDR5 4800 MT/s / Up to DDR4 3200 MT/s
+内存通道数	2
+内存	总容量	16 GB (威刚 DDR4 3200MHz 8GB x 2)
+内存插槽1	名称: 威刚 DDR4 3200MHz 8GB, 制造商: AData, 序列号: 015F0400, 类型: DDR4, 制造日期: 2022 年 14 周, 容量: 8192 MB, 频率: 3200MHz
+内存插槽2	名称: 威刚 DDR4 3200MHz 8GB, 制造商: AData, 序列号: C7680400, 类型: DDR4, 制造日期: 2022 年 14 周, 容量: 8192 MB, 频率: 3200MHz
+显卡	名称	NVIDIA GeForce RTX 3060
+显卡厂商	影驰
+显存	12 GB
+芯片厂商	Nvidia
+独立显卡	是
+显存频率	1875MHz
+核心频率	1320MHz
+Boost频率	1777 MHz
+驱动名称	NVIDIA GeForce RTX 3060
+驱动版本	31.0.15.5186
+驱动日期	3-12-2024
+显存品牌	SAMSUNG
+显存类型	GDDR6
+显存位宽	192 bit
+显存带宽	360 GB/s
+渲染器数量	3584
+主板	主板名称	华硕 PRIME B660M-K D4
+芯片组	LPC Controller/eSPI Controller B660芯片组
+序列号	220302994709895
+BIOS发布日期	02/24/2022
+BIOS制造商	ASUS
+BIOS版本	安迈Inc.1201
+显示器	显示器#0	名称: 飞利浦 PHLC215 PHL 272M8, 厂商: 飞利浦, 尺寸: 27 英寸, 分辨率: 1920 x 1080

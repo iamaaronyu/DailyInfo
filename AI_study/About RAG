@@ -1,0 +1,77 @@
+综述：Retrieving Multimodal Information for Augmented Generation: A Surve
+https://arxiv.org/abs/2303.10868
+https://github.com/Tongji-KGLLM/RAG-Survey
+https://medium.com/@yufan1602/modular-rag-and-rag-flow-part-%E2%85%B0-e69b32dc13a3
+
+Advanced RAG Techniques: an Illustrated Overview：  --科普当前可用的 RAG 算法和技术
+https://pub.towardsai.net/advanced-rag-techniques-an-illustrated-overview-04d193d8fec6
+1、分块 (Chunking) & 向量化 (Vectorisation)
+2、搜索索引：
+向量存储索引；
+分层索引（eg：一个由摘要组成，另一个由文档块组成）； 
+假设性问题和 HyDE；
+内容增强（句子扩展上下文+更大的文本块）；
+融合检索或混合搜索（关键字搜索+向量搜索）；
+3、重排（reranking）和过滤（filtering）：后处理器，根据相似性分数、关键字、元数据过滤掉结果，或使用其他模型（如 LLM）、sentence-transformer 交叉编码器，Cohere 重新排名接口或者基于元数据重排它们
+4. 查询转换：
+拆分为多个子查询；
+查询重写；
+5. 聊天引擎： ReAct 智能体
+6. 查询路由：查询路由是 LLM 驱动的决策步骤，决定在给定用户查询的情况下下一步该做什么
+7. 智能体（Agent）
+8. 响应合成
+9.Embedding和LLM微调
+10. SELF-RAG
+
+https://papers.cool/arxiv/2402.12177
+Mafin: Enhancing Black-Box Embeddings with Model Augmented Fine-tuning（嵌入模型微调）
+
+https://papers.cool/arxiv/2402.12869
+Exploring the Impact of Table-to-Text Methods on Augmenting LLM-based Question Answering with Domain Hybrid Data（特别是包含文本和半结构化表格的混合数据-增强到大型语言模型）
+
+Modular RAG and RAG Flow: Part II
+https://medium.com/@yufan1602/modular-rag-and-rag-flow-part-ii-77b62bf8a5d3
+
+Seven Failure Points When Engineering a Retrieval Augmented Generation System
+https://arxiv.org/abs/2401.05856
+痛点1：内容缺失；痛点2：错过了排名靠前的文档；痛点3：不在上下文中 — 合并策略限制；痛点4：未提取；痛点5：格式错误；痛点6：准确度不足；痛点7：不完整；痛点8：数据摄入可伸缩性；痛点9：结构化数据问答；痛点10：从复杂 PDF 中提取数据；痛点11：备用模型；
+
+12 RAG Pain Points and Proposed Solutions
+https://medium.com/towards-data-science/12-rag-pain-points-and-proposed-solutions-43709939a28c
+视频：https://www.youtube.com/watch?v=EBpT_cscTis
+
+
+RAG提示壓縮，節省80%提示工程tokens經費
+https://medium.com/@bohachu/rag%E6%8F%90%E7%A4%BA%E5%A3%93%E7%B8%AE-%E7%AF%80%E7%9C%8180-%E6%8F%90%E7%A4%BA%E5%B7%A5%E7%A8%8Btokens%E7%B6%93%E8%B2%BB-e7eb2f5d28cd
+
+Getting the Most from LLMs: Building a Knowledge Brain for Retrieval Augmented Generation  具体实施
+https://medium.com/mlearning-ai/getting-the-most-from-llms-building-a-knowledge-brain-for-retrieval-augmented-generation-3c1568667742
+
+大语言模型的检索增强生成 (RAG) 方法
+https://www.promptingguide.ai/zh/research/rag
+https://www.promptingguide.ai/zh
+
+竞品分析：
+Amazon Bedrock 知识库：https://aws.amazon.com/cn/bedrock/knowledge-bases/
+llamaindex
+langchain
+
+
+案例1：金融行业查询需求
+https://www.zhihu.com/question/625481187/answer/3279041129
+
+OpenAI优秀实践：A Survey of Techniques for Maximizing LLM Performance, OpenAI
+https://www.youtube.com/watch?v=ahnGLM-RC1Y
+
+微软2023年Build大会演讲：如何训练和应用GPT(State of GPT)--OpenAI的AI研究员和创始成员Andrej Karpathy的一个主题为State of GPT的演讲
+https://www.youtube.com/watch?v=YrBJiy-V8MY
+
+“茴香豆”是一个基于 LLM 的领域知识助手。特点：应对群聊这类复杂场景，解答用户问题的同时，不会消息泛滥;提出一套解答技术问题的算法 pipeline;部署成本低，只需要 LLM 模型满足 4 个 trait 即可解答大部分用户问题
+https://github.com/InternLM/HuixiangDou/
+
+HRoT: Hybrid prompt strategy and Retrieval of Thought for Table-Text Hybrid Question Answering表格检索这篇论文介绍了一种名为混合提示策略和思维检索的新提示策略，用于解决表格-文本混合问答中的数字问题。通过上下文学习，该论文引导模型在处理混合数据时发展检索思维的能力。在少样本情况下，该论文的方法在MultiHiertt数据集上相比完全监督的最新方法表现出较高的性能。
+作者：牧羊人  链接：https://www.zhihu.com/question/625481187/answer/3246946233
+
+
+Hybrid Hierarchical Retrieval for Open-Domain Question Answering
+层次化检索相关论文。

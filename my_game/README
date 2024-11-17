@@ -1,0 +1,5 @@
+小游戏：
+小羊快跑,基于pygame实现，通过上下左右移动来绕开要吃羊的狼。
+
+python sheeprun.py
+
